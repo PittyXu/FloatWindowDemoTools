@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/big_window_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#96969696"
+        android:orientation="vertical" android:minWidth="250dp" android:padding="2dp">
+    <include layout="@layout/tools_list"/>
+    <Button
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/close_float"
+            android:minWidth="150dp"/>
+    <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sure" android:minWidth="150dp"/>
+</LinearLayout>
